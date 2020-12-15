@@ -39,7 +39,7 @@ Hey there! my name is *{dispatcher.bot.first_name}*. If you have any questions o
 I'm here to make your group management fun and easy!
 i have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
 
-Any issues or need help related to me? join our group [Legends of Bikini Bottom](https://t.me/BikiniBottomStaff).
+Any issues or need help related to me? join our group [Legends of Bikini Bottom](https://t.me/lulzsec_official).
 
 Wanna Add me to your Group? Just click the button below!
 """
@@ -47,7 +47,7 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add to Group 👥", url="t.me/SpongeBobNobot?startgroup=true"
+            text="Add to Group 👥", url="t.me/venomous_devil_bot?startgroup=true"
         ),
         InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back"),
     ]
@@ -166,7 +166,7 @@ def start(update, context):
 
         else:
             update.effective_message.reply_photo(
-                "https://telegra.ph/file/520390414f9d62b2e5c65.jpg",
+                "https://telegra.ph/file/6ee7b8516862371288b5f.jpg",
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
